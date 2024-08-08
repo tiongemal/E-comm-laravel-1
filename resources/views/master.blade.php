@@ -23,8 +23,47 @@
 </body>
 <style>
     .custom-login{
-        height: 550px;
+        height: 750px;
         padding-top: 100px;
+    }
+    .container{
+        height: 500px;
+        margin-top: 100px;
+    }
+
+    .slider-img {
+        max-height: 500px;
+        object-fit: cover;
+        object-position: center;
+        width: 100%;
+    }
+    .trending-image{
+        height: 200px;
+    }
+
+    .custom-product{
+        height: 600px;
+    }
+    .slider-text{
+        opacity: 60%;
+        background-color: #eac18f;
+    }
+    .trending-item{
+        float: left;
+        width: 25%;
+    }
+    .trending-wrapper{
+        margin: 30px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    a:hover{
+        color: black;
+    }
+    .detail-img{
+        max-height: 300px;
     }
 </style>
 </html>
